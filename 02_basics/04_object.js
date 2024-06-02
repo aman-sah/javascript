@@ -46,10 +46,47 @@ const user=[
 
 // console.log(user[1].email);
 
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+
+
+//*************** object de-structure *************
+const course={
+    coursename:"js in hindi",
+    price:"999",
+    courseInstructor:"hitesh"
+}
+
+const {courseInstructor:instructor}=course;
+
+console.log(instructor);
+
+
+/*********object de-structure in react*************/
+
+// const navbar=({company})=>{
+
+// }
+// navbar(company="aman");
+
+
+
+/*********** JSON API *************/
+
+// {
+//     "name":"aman",
+//     "coursename":"js in hindi",
+//     "price":"free"
+// }
+
+[
+    {},
+    {},
+    {}
+]
