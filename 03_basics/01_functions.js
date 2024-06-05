@@ -18,7 +18,7 @@ function addTwoNumbers(num1,num2){
 
 function loginUserMessage(username="sam"){
     if(!username){
-        console.log("Please enter a suername");
+        console.log("Please enter a username");
         return ;
     }
     return `${username} just logged in`;
@@ -54,5 +54,6 @@ const mynewArray=[200,400,100,600]
 function returnSecondaryValue(getArray){
     return getArray[1]
 }
+
 // console.log(returnSecondaryValue(mynewArray));
 console.log(returnSecondaryValue([200,400,500,1000]));
