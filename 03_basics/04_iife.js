@@ -14,3 +14,5 @@
     //unnamed IIFE with parameter
     console.log(`DB CONNECTED TWO ${name}`);
 })('aman');
+
+// sometimes we face problem from global scope's pollution,so remove that we us IIFE(`Immediately Invoked function Expression`) 

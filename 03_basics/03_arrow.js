@@ -38,6 +38,6 @@ const chai=()=>{
 
 // const addTwo=(num1, num2)=>  num1+num2 //Implicit Return 
 // const addTwo=(num1, num2)=>  (num1+num2) //Implicit Return 
-const addTwo=(num1, num2)=>  ({username:"aman"})
+const addTwo=(num1, num2)=>   ({username:"aman"})
 
 console.log(addTwo(3,4));
