@@ -9,7 +9,7 @@ if (userEmail) {
 
 // falsy values
 
-// false, 0, -0, BigInt 0n, "", null, undefined, NaN
+// false, 0, -0, BigInt, 0n, "", null, undefined, NaN
 
 //truthy values
 // "0", 'false', " ", [], {}, function(){}
@@ -36,7 +36,10 @@ val1 = null ?? 10 ?? 20
 
 console.log(val1);
 
-// terniary Operator
+
+
+
+// Terniary Operator
 
 // condition ? true : false
 
