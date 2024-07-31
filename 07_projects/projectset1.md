@@ -16,10 +16,17 @@ buttons.forEach(function(button){
   button.addEventListener('click',function(e){
     console.log(e)
     console.log(e.target)
+
+    /*Using if*/
     if(e.target.id==='grey'){
       // body.style.backgroundColor='grey'
     }
+    if(e.target.id==='white'){
+      // body.style.backgroundColor='grey'
+    }
 
+
+     /*Using Switch*/
     const colorId=e.target.id;
     switch(colorId){
       case "grey":
