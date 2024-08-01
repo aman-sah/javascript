@@ -81,7 +81,15 @@ form.addEventListener('submit',function(e){
     }
 });
 
+```
 
+## solution 3
 
-
+```javascript
+// const clock=document.querySelector("#clock")
+const clock =document.getElementById("clock")
+setInterval(function(){
+  const time=new Date();
+  clock.innerHTML=`${time.toLocaleTimeString()}`
+},1000)
 ```
